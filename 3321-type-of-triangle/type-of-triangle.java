@@ -4,13 +4,13 @@ class Solution {
             return "none";
         }
         if((nums[0]==nums[1]) &&(nums[1]==nums[2]) &&(nums[0]==nums[2])){
-            return new String("equilateral");
+            return "equilateral";
         }
         else if((nums[0]==nums[1]) || (nums[1]==nums[2]) || (nums[0]==nums[2])){
             return "isosceles";
         }
 
 
-        return new String("scalene");
+        return "scalene";
     }
 }
